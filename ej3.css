@@ -1,0 +1,39 @@
+.header{
+    background-color: coral; 
+}
+
+.footer{
+    background-color: yellow;
+}
+
+.numberTwo{
+    background-color: aqua;
+}
+
+.numberThree{
+    background-color: red;
+}
+
+@media (min-width: 576px) {
+    .header{
+        background-color: aqua;
+    }
+
+    .numberThree{
+        background-color: greenyellow;
+    }
+
+    .numberTwo{
+        background-color: red;
+    }
+}
+
+@media (min-width: 768px) {
+    .header{
+        background-color: greenyellow;
+    }
+
+    .numberThree{
+        background-color: red;
+    }
+}
